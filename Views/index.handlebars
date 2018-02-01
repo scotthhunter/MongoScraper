@@ -1,0 +1,21 @@
+<div class="container">
+  
+    <h1 id="news paper">New York Times</h1>
+  {{#each found}}
+    <div class="article">
+
+      <a href="{{this.link}}" target="_blank"><h4 class="articles">{{this.title}}</h4></a>
+      <div class="row">
+        <div class="col-xs-12 col-md-6 articleIMG">
+          <img class="article-img-top img-rounded" src="{{this.imgURL}}">
+        </div>
+
+        <div class="col-xs-12 col-md-6 articleSummary">
+          <p class="articleshor">{{this.summary}}</p>
+        </div>
+
+      </div>
+     
+<script type="text/javascript" src="/scripts/app.js"></script>
+
+</div>
